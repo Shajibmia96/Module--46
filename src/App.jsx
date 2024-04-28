@@ -1,30 +1,32 @@
 
 // import StateFullFrom from '../Component/SimpleFrom/StateFullFrom'
 // import HooksFrom from '../Component/HooksFrom/HooksFrom'
-import ReusableComponent from '../Component/ReusableComponent'
+// import ReusableComponent from '../Component/ReusableComponent'
 // import RefFrom from '../Component/SimpleFrom/RefFrom'
 import './App.css'
+import GrandPa from './GrandPa'
 // import SimpleFrom from '../Component/SimpleFrom/SimpleFrom'
 
 function App() {
 
-  const handlesSingUpSubmit = data => {
+//   const handlesSingUpSubmit = data => {
    
-    console.log("Sing up " , data)
-}
+//     console.log("Sing up " , data)
+// }
 
- const handlesProfileSubmit = data =>{
+//  const handlesProfileSubmit = data =>{
     
-     console.log('update profile ', data)
- }
+//      console.log('update profile ', data)
+//  }
    return (
     <>
       <h1>Simple from</h1>
+      <GrandPa></GrandPa>
      {/* <SimpleFrom></SimpleFrom> */}
      {/* <StateFullFrom></StateFullFrom> */}
      {/* <RefFrom></RefFrom> */}
      {/* <HooksFrom></HooksFrom> */}
-      <ReusableComponent fromTitle={'Sing up'}
+      {/* <ReusableComponent fromTitle={'Sing up'}
                          handlesSubmit={handlesSingUpSubmit}
       >
         <div>
@@ -41,7 +43,7 @@ function App() {
           <h2>Update profile</h2>
           <p>Keep your profile update</p>
         </div>
-      </ReusableComponent>
+      </ReusableComponent> */}
     </>
   )
 }
