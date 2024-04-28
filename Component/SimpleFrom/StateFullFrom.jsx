@@ -13,7 +13,7 @@ const StateFullFrom = () => {
             setError("you must be pass 6 characters")
         }
         else{
-           error('')
+            setError("")
         }
      }
 
